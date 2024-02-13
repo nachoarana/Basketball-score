@@ -1,22 +1,30 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Protest+Strike&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <div>
-                <h3 class="team_title">HOMES</h3>
-                <p class="score" id="score_home">0</p>
-                <button>+1</button> 
-                <button>+2</button> 
-                <button>+3</button> 
+        <div class="main">
+            <div class="container home">
+                <h2 class="team_title">HOME</h3>
+                <p class="score" id="score_home"></p>
+                <button id="home1">+1</button> 
+                <button id="home2">+2</button> 
+                <button id="home3">+3</button> 
+                <audio src="./audios/wee.mp3" id="audio_wee"></audio>
             </div>
-            <div>
-                <h3>AWAY</h3>
-                <p class="score" id="score_guest">0</p>
-                <button>+1</button> 
-                <button>+2</button> 
-                <button>+3</button> 
+            <div class="container away">
+                <h2>AWAY</h3>
+                <p class="score" id="score_away"></p>
+                <button id="away1">+1</button> 
+                <button id="away2">+2</button> 
+                <button id="away3">+3</button> 
+                <audio src="./audios/boo.mp3" id="audio_boo"></audio>
+
             </div>
         </div>
         <script src="index.js"></script>
