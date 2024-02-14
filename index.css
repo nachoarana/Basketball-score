@@ -18,6 +18,10 @@ body {
     border-radius: 4px;
 }
 
+.middle{
+    align-self: center;
+}
+
 h2{
     font-family: "Protest Strike", sans-serif;
     font-size: 1.5em;
